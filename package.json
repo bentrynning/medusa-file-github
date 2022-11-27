@@ -1,9 +1,9 @@
 {
   "name": "medusa-file-github",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Simple Medusa plugin for using Github as a file storage",
   "license": "MIT",
-  "repository": "bentrynning/visker/medusa/plugins/medusa-file-github",
+  "repository": "bentrynning/medusa-file-github",
   "author": {
     "name": "Bent Rynning",
     "email": "bent.rynning@gmail.com",
@@ -27,9 +27,9 @@
     "build": "swc ./src -d ."
   },
   "bugs": {
-    "url": "https://github.com/bentrynning/visker/issues"
+    "url": "https://github.com/bentrynning/medusa-file-github/issues"
   },
-  "homepage": "https://github.com/bentrynning/visker/tree/main#readme",
+  "homepage": "https://github.com/bentrynning/medusa-file-github/tree/main#readme",
   "dependencies": {
     "octokit": "^2.0.10"
   },
