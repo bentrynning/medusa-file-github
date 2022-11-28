@@ -16,7 +16,19 @@ And is served through the superb open-source cdn [jsdeliver](https://www.jsdeliv
   owner: "bentrynning",
   repo: "medusa",
   path: "public" // this is the path to the folder where your assets live
-  cdn_url: // optional defults to "https://cdn.jsdelivr.net/gh/",
+  cdn_url: // optional defults to "https://cdn.jsdelivr.net/gh",
   github_token: "YOUR-FINE-GRAINED-GITHUBTOKEN", // process.env.GITHUB_TOKEN
 }
 ```
+
+## Development
+**Watch**
+```js
+npm run dev
+```
+**Build** 
+```js
+npm run build
+```
+
+Remember to update files in `packages.json` when new folders are added to only export the needed files when publishing package

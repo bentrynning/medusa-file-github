@@ -27,7 +27,7 @@ class GithubStorageService extends AbstractFileService {
     this.owner_ = options.owner,
     this.repo_ = options.repo,
     this.path_ = options.path,
-    this.cnd_url_ = options.cdn_url || "https://cdn.jsdelivr.net/gh/";
+    this.cnd_url_ = options.cdn_url || "https://cdn.jsdelivr.net/gh";
     this.logger_ = logger;
 
     this.client_ = new Octokit({
@@ -36,7 +36,7 @@ class GithubStorageService extends AbstractFileService {
   }
 
   buildUrl(fileData: Express.Multer.File): string {
-    return `${this.cnd_url_}${this.owner_}/${this.repo_}/${this.path_}/${fileData.originalname}`;
+    return `${this.cnd_url_}/${this.owner_}/${this.repo_}/${this.path_}/${fileData.originalname}`;
   }
 
   async get(fileData: GetUploadedFileType) {
