@@ -1,6 +1,6 @@
 {
   "name": "medusa-file-github",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple Medusa plugin for using Github as a file storage",
   "license": "MIT",
   "repository": "bentrynning/medusa-file-github",
@@ -34,7 +34,7 @@
     "octokit": "^2.0.10"
   },
   "peerDependencies": {
-    "@medusajs/medusa": "^1.6.5"
+    "@medusajs/medusa": "^1.7.5"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.57",
