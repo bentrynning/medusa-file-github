@@ -24,7 +24,8 @@
   ],
   "scripts": {
     "dev": "swc -w ./src -d .",
-    "build": "swc ./src -d ."
+    "build": "swc ./src -d .",
+    "prepublish": "npm run build"
   },
   "bugs": {
     "url": "https://github.com/bentrynning/medusa-file-github/issues"
