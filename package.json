@@ -35,7 +35,7 @@
     "octokit": "^2.0.10"
   },
   "peerDependencies": {
-    "@medusajs/medusa": "1.7.8"
+    "@medusajs/medusa": "^1.7.11"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.57",
