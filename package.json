@@ -1,6 +1,6 @@
 {
   "name": "medusa-file-github",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Simple Medusa plugin for using Github as a file storage",
   "license": "MIT",
   "repository": "bentrynning/medusa-file-github",
